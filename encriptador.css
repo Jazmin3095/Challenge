@@ -1,0 +1,242 @@
+body{
+    padding: 20.2em 0;
+    background: black
+}
+
+h1{
+   
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    opacity: 45%;
+}
+
+.logo{
+    position: absolute;
+    width: 50%;
+    height: 28px;
+    left: 10px;
+    top: 0px;
+
+}
+
+.ingrese{
+    position: absolute;
+    left: 400px;
+    top: 35px;
+    font-family: "Roboto Mono", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: white;
+
+}
+
+h3{
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+    border-radius: 10px;
+    opacity: 45%;
+}
+
+.rectangulo{
+    position: absolute;
+    width: 400px; 
+    height: 670px;
+    left: 1000px;
+    top: 40px; 
+    background: black;
+    border: none;
+    border-radius: 32px;
+    width: 400px;
+    opacity: 50%;
+   
+}
+ 
+
+.mensaje{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 240px;
+    top: 200px;
+    background-color: transparent;
+    font-family: "Roboto Mono", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    border: none;
+    
+    
+}
+
+
+.minusculas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    color: white;
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 570px;
+    opacity: 70%;
+}
+
+.datos{
+    position: absolute;
+    left: 00px;
+    top: 650px;
+    font-family: "Roboto Mono";
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    text-align: center;
+    opacity: 50%;
+
+}
+
+
+
+
+.encriptar {
+    
+    width: 328px;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background: rgb(43, 202, 43);
+    border-radius: 24px;
+    transition: 500ms all;
+    cursor: pointer;
+    position: absolute;
+    height: 67px;
+    left: 220px;
+    top: 620px;
+
+}
+
+.encriptar:hover{
+    background: rgb(43, 202, 43);
+    transform: scale(1.1);
+}
+
+.desencriptar{
+
+    width: 328px;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: green;
+    border-radius: 24px;
+    transition: 500ms all;
+    cursor: pointer;
+    position: absolute;
+    height: 67px;
+    left: 560px;
+    top: 620px;
+}
+
+.desencriptar:hover{
+    background: green;
+    transform: scale(1.1);
+}
+
+
+.resultado{
+    position: absolute;
+    width: 400px;
+    height: 670px;
+    left: 1000px;
+    top: 40px;
+    background: transparent;
+    font-family: "Roboto Mono", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    border: none;
+    box-shadow: 0px 1px 1px 2px lightgreen;
+    border-radius: 15px;
+    
+  
+    
+}
+
+h4{
+    position: absolute;
+    width: 100%;
+    left: 220px;
+    top: 565px;
+    opacity: 80%;
+    
+}
+
+h5{
+    position: absolute;
+    width: 10px;
+    height: 18px;
+    left: 1050px;
+    top: 385px;
+    
+
+}
+
+h6{
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 95px;
+    top: 610px;
+    opacity: 60%;
+
+}
+
+.copiar{
+
+    width: 328px;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background: rgb(85, 186, 219);
+    border-radius: 24px;
+    transition: 500ms all;
+    cursor: pointer;
+    position: absolute;
+    height: 67px;
+    left: 1032px;
+    top: 620px;
+}
+
+.copiar:hover{
+    background: rgb(25, 201, 160);
+    transform: scale(1.1);
+}
+
+/*h5{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1110px;
+    top: 370px;
+    border-radius: 32px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+h5:hover{
+    transform: scale(1.1);
+}
+/*<h5><img src="buscando.PNG"></h5> 
